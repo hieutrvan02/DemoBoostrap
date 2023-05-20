@@ -2,85 +2,44 @@
 <html lang="en">
 
 <head>
-
-    <title>Ristorante Con Fusion: About Us</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Home</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <style>
-        .row-header {
-            margin: 0px auto;
-            padding: 0px;
-        }
 
-
-        .footer {
-            background-color: #D1C4E9;
-            margin: 0px auto;
-            padding: 20px 0px 20px 0px;
-        }
-
-        .jumbotron {
-            padding: 70px 30px 70px 30px;
-            margin: 0px auto;
-            background: #9575CD;
-            color: floralwhite;
-        }
-
-        address {
-            font-size: 80%;
-            margin: 0px;
-            color: #0f0f0f;
-        }
-
-        body {
-            padding: 0px;
-            z-index: 0;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html">Ristorante Con Fusion</a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span>
+                            Home</a></li>
+                    <li class="nav-item  active"><a class="nav-link" href="./aboutus.html"><span
+                                class="fa fa-info fa-lg"></span> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span
+                                class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
-                <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-                    <div class="container">
-                        <a class="navbar-brand" href="index.html">Ristorante Con Fusion</a>
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item"><a class="nav-link" href="/index.html"><span
-                                        class="fa fa-home fa-lg"></span>Home</a></li>
-                            <li class="nav-item active"><a class="nav-link" href="./aboutus.html"><span
-                                        class="fa fa-info fa-lg"></span> About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>
-                                    Menu</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"><span
-                                        class="fa fa-address-card fa-lg"></span>Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                    <span class="navbar-toggler-icon"> = </span>
-                </button>
-                <div class="collapse navbar-collapse" id="Navbar">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" href="/index.html"><span
-                                    class="fa fa-home fa-lg"></span>Home</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="./aboutus.html"><span
-                                    class="fa fa-info fa-lg"></span> About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>
-                                Menu</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span
-                                    class="fa fa-address-card fa-lg"></span>Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-12 col-sm-6">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
@@ -95,13 +54,10 @@
     </header>
 
     <div class="container">
-        <div class="row">
-            <ol class="col-12 breadcrumb">
-                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                <li class="breadcrumb-item active">About Us</li>
-            </ol>
-        </div>
-
+        <ol class="col-12 breadcrumb">
+            <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+            <li class="breadcrumb-item active">About Us</li>
+        </ol>
         <div class="row">
             <div class="col-12">
                 <h3>About Us</h3>
@@ -178,7 +134,11 @@
             </div>
         </div>
 
+
+
     </div>
+
+
 
     <footer class="footer">
         <div class="container">
@@ -219,6 +179,7 @@
                                     class="fa fa-youtube"></i></a>
                             <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -229,7 +190,10 @@
             </div>
         </div>
     </footer>
-
 </body>
+<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </html>
